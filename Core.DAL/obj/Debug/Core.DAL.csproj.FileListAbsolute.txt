@@ -1,0 +1,26 @@
+E:\A\01-Website Design\Web Application\WebApplication\Core.DAL\bin\Core.DAL.dll
+E:\A\01-Website Design\Web Application\WebApplication\Core.DAL\bin\Core.DAL.pdb
+E:\A\01-Website Design\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.dll
+E:\A\01-Website Design\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.pdb
+E:\A\01-Website Design\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.DAL\bin\Core.DAL.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.DAL\bin\Core.DAL.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.DAL\bin\Core.DAL.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.DAL\bin\Core.DAL.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.csprojResolveAssemblyReference.cache
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\Core.DAL\bin\Core.DAL.dll
+E:\B002-Khách hàng\Web Application\WebApplication\Core.DAL\bin\Core.DAL.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.dll
+E:\B002-Khách hàng\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.DAL\bin\Core.DAL.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.DAL\bin\Core.DAL.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.DAL\obj\Debug\Core.DAL.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.DAL\bin\Core.DAL.dll.config

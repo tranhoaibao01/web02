@@ -1,0 +1,563 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebPage.master.cs" Inherits="eCorp.App_WebMaster.WebPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Trung tâm VLXD Long Châu</title>
+    <style type="text/css">
+        .style1
+        {
+            width: 900px;
+        }
+        .style2
+        {
+            width: 100%;
+            border-style: solid;
+            border-width: 1px;
+        }
+        .style3
+        {
+            width: 100%;
+        }
+        
+       
+        /* Menu trái*/
+        .menu1
+        {
+	        width:100%; 
+	        height:19px; 
+	        /*line-height:30px;*/
+	        margin:0;
+	        padding:0;
+        }
+        .menu1 li
+        {
+	        position:relative;
+	        display:block;
+	        width:15%;
+        }
+        .menu1 li ul
+        {
+	        position:absolute; 
+	        display:none;
+        }
+        .menu1 li:hover > ul
+        {
+	        display:block;
+        }
+        .menu1 a
+        {
+	        display:block; 
+	        color:#fff;
+	        background-color:Black;
+	        height:26px;
+        }
+        .menu1 ul ul,
+        .menu1 li:hover > a,
+        .menu1 a:hover
+        {
+        }
+        /*Level 1*/
+        .menu1 > ul > li
+        {
+	        float:left;
+	        width:100%;
+            top: 0px;
+            left: 0px;
+        }
+        .menu1 > ul > li > a
+        {
+	        width:100%;
+	        padding-left:0%; 
+	        padding-right:0%; 
+	        font-weight:normal;
+        }
+        /*Level 2*/
+        .menu1 > ul > li > ul
+        {
+	        position:absolute; 
+	        top:0%; 
+	        left:80%; 
+	        width:100%; 
+        }
+        .menu1 > ul > li > ul > li
+        {
+	        width:100%;
+        }
+        .menu1 > ul > li > ul > li > a
+        {
+	        width:100%;
+	        padding-left:3%;
+	        padding-right:3%;
+        }
+        /* Level +++ */
+        .menu1 ul ul ul
+        {
+	        width:100%;
+	        left:100%;
+	        top:0;
+	        background-color:Black;
+        }
+        .menu1 ul ul ul li
+        {
+	        width:100%;
+        }
+        .menu1 ul ul ul li a
+        {
+	        width:100%;
+	        padding-left:0%;
+	        padding-right:0%;
+        }
+        .style4
+        {
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table cellpadding="0" cellspacing="0" class="style1" 
+        style="border: thin groove #808080; background-color: #C0C0C0;" align="center">
+        <tr>
+            <td style="width: 100px; height: 30px; border-bottom-style: groove; border-bottom-width: thin; border-bottom-color: #808080; background-color: #000000;">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="style3">
+                    <tr>
+                        <td align="center" style="width: 400px; height: 200px">
+                            <div align="center">
+                                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+                                    codebase="../Images/Orthers/panel_left_swf_01.swf" width="400" height="200">
+                                    <param name="movie" value="../Images/Orthers/panel_left_swf_01.swf" />
+                                    <param name="quality" value="high" />
+                                    <param name="allowScriptAccess" value="always" />
+                                    <param name="wmode" value="transparent">
+                                        <embed src="../Images/Orthers/panel_left_swf_01.swf"
+                                        quality="high"
+                                        type="application/x-shockwave-flash"
+                                        WMODE="transparent"
+                                        width="400"
+                                        height="200"
+                                        pluginspage="http://www.macromedia.com/go/getflashplayer"
+                                        allowScriptAccess="always" />
+                                </object>
+                            </div>
+                        </td>
+                        <td align="center" style="width: 500px; height: 200px">
+                          <div align="center">
+                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+                                codebase="../Images/Orthers/panel_left_swf_01.swf" width="100%" 
+                                height="200">
+                                <param name="movie" value="../Images/Orthers/panel_right_swf_01.swf"/>
+                                <param name="quality" value="high" />
+                                <param name="allowScriptAccess" value="always" />
+                                <param name="wmode" value="transparent">
+                                <embed src="../Images/Orthers/panel_right_swf_01.swf"
+                                quality="high"
+                                type="application/x-shockwave-flash"
+                                WMODE="transparent"
+                                width="500"
+                                height="200"
+                                pluginspage="http://www.macromedia.com/go/getflashplayer"
+                                allowScriptAccess="always" />
+                            </object>
+                          </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: Black; height:30px; vertical-align:middle; text-align:left;">
+                <asp:menu id="NavigationMenu"
+                    disappearafter="100"
+                    staticdisplaylevels="1" 
+                    orientation="Horizontal" 
+                    target="_blank"  
+                    runat="server" Font-Overline="False" Width="100%" Font-Names="Tahoma">
+                    <staticmenuitemstyle backcolor="Black" forecolor="White" Font-Bold="True" 
+                        Font-Names="Tahoma" Font-Overline="False" 
+                        Font-Strikeout="False" HorizontalPadding="20px"/>
+                    <statichoverstyle backcolor="#CCCCCC" Font-Bold="True" Font-Names="Tahoma" 
+                        ForeColor="Black"/>
+                    <dynamicmenuitemstyle backcolor="Black" forecolor="Silver"/>
+                    <dynamichoverstyle backcolor="#CC3300" forecolor="White"/>
+                <items>
+                  <asp:menuitem navigateurl="../Default.aspx" 
+                      text="TRANG CHỦ" 
+                      tooltip="Trang chủ" Value="Trang chủ">
+                  </asp:menuitem>
+                  <asp:menuitem navigateurl="../App_WebPages/Gioi_thieu.aspx" 
+                    text="GIỚI THIỆU"
+                    tooltip="Giới thiệu" Value="Giới thiệu">
+                  </asp:menuitem>
+                  <asp:menuitem navigateurl="../App_WebPages/Tin_tuc.aspx" 
+                        text="TIN TỨC"
+                        tooltip="Tin tức" Value="Tin tức">
+                  </asp:menuitem>
+                  <asp:menuitem navigateurl="../App_WebPages/Chi_nhanh.aspx" 
+                        text="CHI NHÁNH"
+                        tooltip="Chi nhánh" Value="Chi nhánh">
+                   </asp:menuitem>
+                  <asp:menuitem navigateurl="../App_WebPages/Lien_he.aspx" 
+                        text="LIÊN HỆ"
+                        tooltip="Liên hệ" Value="Liên hệ">
+                  </asp:menuitem>
+                </items>
+                    <StaticMenuStyle BackColor="Black" />
+                    <StaticSelectedStyle Font-Bold="True" />
+              </asp:menu>  
+           </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="style2">
+                    <tr>
+                        <td style="width: 200px; height: 100%; border-top-style: groove; border-top-width: thin; border-top-color: #808080; border-bottom-style: groove; border-bottom-width: thin; border-bottom-color: #808080;" 
+                            valign="top">
+                            <table cellpadding="0" cellspacing="0" class="style3">
+                                <tr>
+                                    <td style="height: 30px">
+                                        <asp:Image ID="Image1" runat="server" 
+                                            ImageUrl="~/Images/Orthers/he_thong_san_pham.png" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 160px; background-color:Black;" valign="top">
+                                        <asp:menu id="NavigationMenu_Sp"
+                                            disappearafter="100"
+                                            staticdisplaylevels="1" 
+                                            orientation="Vertical" 
+                                            target="_blank"  
+                                            runat="server" Font-Overline="False" Width="100%" RenderingMode="Table">
+
+                                            <staticmenuitemstyle backcolor="White" forecolor="Black" Font-Bold="True" 
+                                                Font-Names="Tahoma" Font-Overline="False" 
+                                                Font-Strikeout="False" BorderColor="#CCCCCC" BorderWidth="1px" 
+                                                VerticalPadding="5px" HorizontalPadding="3px"/>
+                                            <statichoverstyle backcolor="#669999" Font-Bold="False" Font-Names="Tahoma" 
+                                                ForeColor="White"/>
+                                            <dynamicmenuitemstyle backcolor="White" forecolor="Black" Font-Names="Arial" 
+                                                VerticalPadding="5px" BorderColor="#CCCCCC" BorderStyle="Solid" 
+                                                BorderWidth="1px"/>
+                                            <dynamichoverstyle backcolor="#669999" forecolor="White" Font-Names="Arial" 
+                                                BorderColor="White" BorderStyle="Solid"/>
+
+                                            <DynamicMenuStyle BackColor="White" />
+
+                                        <items>
+                                          <asp:menuitem navigateurl="#" 
+                                              text="Gạch" 
+                                              tooltip="Gạch" Value="Gạch" ImageUrl="~/Images/Orthers/Bullet_02.GIF">
+                                              <asp:menuitem navigateurl="#" 
+                                                  text="Gạch lát" 
+                                                  tooltip="Gạch lát" Value="Gạch lát">
+                                                  <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.LAT.BK&Link_Name=Gạch >> Gạch lát >> Gạch bông kính" 
+                                                      text="Gạch bông kính" 
+                                                      tooltip="Gạch bông kính" Value="Gạch bông kính">
+                                                  </asp:menuitem>
+                                                  <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.LAT.CERAMIC&Link_Name=Gạch >> Gạch lát >> Gạch ceramic" 
+                                                      text="Gạch ceramic" 
+                                                      tooltip="Gạch ceramic" Value="Gạch ceramic">
+                                                  </asp:menuitem>
+                                              </asp:menuitem>
+                                              <asp:menuitem navigateurl="#" 
+                                                  text="Gạch ốp" 
+                                                  tooltip="Gạch ốp" Value="Gạch ốp">
+                                                  <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.OP.TUONG&Link_Name=Gạch >> Gạch ốp >> Gạch ốp tường" 
+                                                      text="Gạch ốp tường" 
+                                                      tooltip="Gạch ốp tường" Value="Gạch ốp tường">
+                                                  </asp:menuitem>
+                                                  <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.OP.VIEN&Link_Name=Gạch >> Gạch ốp >> Gạch ốp viên" 
+                                                      text="Gạch ốp viên" 
+                                                      tooltip="Gạch ốp viên" Value="Gạch ốp viên">
+                                                  </asp:menuitem>
+                                              <asp:menuitem navigateurl="#" 
+                                                  text="Gạch trang trí" 
+                                                  tooltip="Gạch trang trí" Value="Gạch trang trí">
+                                                  <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.TTRI.DA&Link_Name=Gạch >> Gạch trang trí >> Gạch đá" 
+                                                      text="Gạch đá" 
+                                                      tooltip="Gạch đá" Value="Gạch đá">
+                                                  </asp:menuitem>
+                                                  <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.TTRI.GOM&Link_Name=Gạch >> Gạch trang trí >> Gạch gốm" 
+                                                      text="Gạch gốm" 
+                                                      tooltip="Gạch gốm" Value="Gạch gốm">
+                                                  </asp:menuitem>
+                                              </asp:menuitem>
+                                            </asp:menuitem>
+                                              <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.SVVH&Link_Name=Gạch >> Sân vườn - Vĩa hè" 
+                                                  text="Sân vườn - Vĩa hè" 
+                                                  tooltip="Sân vườn - Vĩa hè" Value="Sân vườn - Vĩa hè">
+                                              </asp:menuitem>
+                                              <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=GACH.KINH&Link_Name=Gạch >> Gạch kính" 
+                                                  text="Gạch kính" 
+                                                  tooltip="Gạch kính" Value="Gạch kính">
+                                              </asp:menuitem>
+                                          </asp:menuitem>
+                                          <asp:menuitem navigateurl="#" 
+                                            text="Thiết bị WC"
+                                            tooltip="Thiết bị WC" Value="Thiết bị WC" 
+                                                ImageUrl="~/Images/Orthers/Bullet_02.GIF">
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.BONCAU&Link_Name=Thiết bị WC >> Bồn cầu" 
+                                                text="Bồn cầu"
+                                                tooltip="Bồn cầu" Value="Bồn cầu">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.CHAURUA&Link_Name=Thiết bị WC >> Chậu rửa" 
+                                                text="Chậu rửa"
+                                                tooltip="Chậu rửa" Value="Chậu rửa">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.BONTIEU&Link_Name=Thiết bị WC >> Bồn tiểu" 
+                                                text="Bồn tiểu"
+                                                tooltip="Bồn tiểu" Value="Bồn tiểu">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.BONTAM&Link_Name=Thiết bị WC >> Bồn tắm" 
+                                                text="Bồn tắm"
+                                                tooltip="Bồn tắm" Value="Bồn tắm">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.VNST&Link_Name=Thiết bị WC >> Vòi nước-Sen tắm" 
+                                                text="Vòi nước-Sen tắm"
+                                                tooltip="Vòi nước-Sen tắm" Value="Vòi nước-Sen tắm">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.BNN&Link_Name=Thiết bị WC >> Bình nước nóng" 
+                                                text="Bình nước nóng"
+                                                tooltip="Bình nước nóng" Value="Bình nước nóng">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=WC.PHUKIEN&Link_Name=Thiết bị WC >> Phụ kiên WC" 
+                                                text="Phụ kiên WC"
+                                                tooltip="Phụ kiên WC" Value="Phụ kiên WC">
+                                            </asp:menuitem>
+                                          </asp:menuitem>
+                                          <asp:menuitem navigateurl="#" 
+                                            text="Thiết bị bếp"
+                                            tooltip="Thiết bị bếp" Value="Thiết bị bếp" 
+                                                ImageUrl="~/Images/Orthers/Bullet_02.GIF">
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=BEP.TUBEP&Link_Name=Thiết bị bếp >> Tủ bếp" 
+                                                text="Tủ bếp"
+                                                tooltip="Tủ bếp" Value="Tủ bếp">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=BEP.BEP&Link_Name=Thiết bị bếp >> Bếp" 
+                                                text="Bếp"
+                                                tooltip="Bếp" Value="Bếp">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=BEP.CHAURUA&Link_Name=Thiết bị bếp >> Chậu rửa chén" 
+                                                text="Chậu rửa chén"
+                                                tooltip="Chậu rửa chén" Value="Chậu rửa chén">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=BEP.PHUKIEN&Link_Name=Thiết bị bếp >> Phụ kiện nhà bếp" 
+                                                text="Phụ kiện nhà bếp"
+                                                tooltip="Phụ kiện nhà bếp" Value="Phụ kiện nhà bếp">
+                                            </asp:menuitem>
+                                          </asp:menuitem>
+                                          <asp:menuitem navigateurl="#" 
+                                            text="Sơn chống thấm"
+                                            tooltip="Sơn chống thấm" Value="Sơn chống thấm" 
+                                                ImageUrl="~/Images/Orthers/Bullet_02.GIF">
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=SON.NUOC&Link_Name=Sơn chống thấm >> Sơn nước" 
+                                                text="Sơn nước"
+                                                tooltip="Sơn nước" Value="Sơn nước">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=SON.DAU&Link_Name=Sơn chống thấm >> Sơn dầu" 
+                                                text="Sơn dầu"
+                                                tooltip="Sơn dầu" Value="Sơn dầu">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=SON.CHONGTHAM&Link_Name=Sơn chống thấm >> Chống thấm" 
+                                                text="Chống thấm"
+                                                tooltip="Chống thấm" Value="Chống thấm">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=SON.SIKA&Link_Name=Sơn chống thấm >> Sika" 
+                                                text="Sika"
+                                                tooltip="Sika" Value="Sika">
+                                            </asp:menuitem>
+                                          </asp:menuitem>
+                                          <asp:menuitem navigateurl="#" 
+                                                text="Sản phẩm khác"
+                                                tooltip="Sản phẩm khác" Value="Sản phẩm khác" 
+                                                ImageUrl="~/Images/Orthers/Bullet_02.GIF">
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=KHAC.CCMH&Link_Name=Sản phẩm khác >> Chuông cửa màn hình" 
+                                                text="Chuông cửa màn hình"
+                                                tooltip="Chuông cửa màn hình" Value="Chuông cửa màn hình">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=KHAC.KHOA&Link_Name=Sản phẩm khác >> Khóa" 
+                                                text="Khóa"
+                                                tooltip="Khóa" Value="Khóa">
+                                            </asp:menuitem>
+                                            <asp:menuitem navigateurl="../App_WebPages/San_pham.aspx?ID=KHAC.DENLED&Link_Name=Sản phẩm khác >> Đèn led" 
+                                                text="Đèn led"
+                                                tooltip="Đèn led" Value="Đèn led">
+                                            </asp:menuitem>
+                                          </asp:menuitem>
+                                        </items>
+                                        <StaticMenuStyle BackColor="White" />
+                                        <StaticSelectedStyle Font-Bold="False" />
+                                      </asp:menu>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <table cellpadding="0" cellspacing="0" class="style3" 
+                                                style="background-color: #FFFFFF; height: 384px;">
+                                            <tr>
+                                                <td style="height: 5px">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="height: 25px">
+                                                    <asp:Label ID="Label1" runat="server" Font-Bold="True" 
+                Font-Names="Tahoma" ForeColor="#CC0000" Text="VLXD LONG CHÂU" 
+                Font-Size="Large"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <asp:Label ID="Label2" runat="server" 
+                Font-Names="Tahoma" Text="Nhà phân phối chính thức" Font-Size="Small"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="height: 100px" valign="top">
+                                                    <asp:Image ID="Image3" runat="server" Height="100px" 
+                ImageUrl="~/Images/Orthers/logo.png" Width="100px" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="style4">
+                                                    <asp:Label ID="Label3" runat="server" Font-Bold="True" 
+                Font-Names="Tahoma" Font-Underline="True" ForeColor="#000066" 
+                Text="Cửa hàng 1:"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td 
+            style="font-family: Tahoma; font-size: small;">
+                                                    - ĐC: 73/17 Lê Đình Cẩn, Phường Tân Tạo, Quận Bình Tân<br />- ĐT: (08) 3 9 574 176<br />- FAX: (08) 3 9 574 187</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <asp:Label ID="Label5" runat="server" Font-Bold="True" 
+                Font-Names="Tahoma" Font-Underline="True" ForeColor="#000066" 
+                Text="Cửa hàng 2:"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td 
+            style="font-family: Tahoma; font-size: small;">
+                                                    - ĐC: 73/17 Lê Đình Cẩn, Phường Tân Tạo, Quận Bình Tân<br />- ĐT: (08) 3 9 574 176<br />- FAX: (08) 3 9 574 187</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    &nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Image ID="Image4" runat="server" 
+                                            ImageUrl="~/Images/Orthers/Web_link.png" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="border-style: groove; border-width: thin; border-color: #808080; width: 500px; height: 100%" 
+                            valign="top">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                        <td style="width: 200px; height: 100%; border-top-style: groove; border-bottom-style: groove; border-top-width: thin; border-bottom-width: thin; border-top-color: #808080; border-bottom-color: #808080;" 
+                            valign="top">
+                            <table cellpadding="0" cellspacing="0" class="style3">
+                                <tr>
+                                    <td style="height: 30px">
+                                        <asp:Image ID="Image2" runat="server" 
+                                            ImageUrl="~/Images/Orthers/Hinh_anh.png" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border-top-style: groove; border-bottom-style: groove; border-top-width: thick; border-bottom-width: thick; border-top-color: #000000; border-bottom-color: #000000">
+                                         <div align="center">
+                                          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+                                                codebase="../Images/Orthers/gach_lat_swf_01.swf" width="200" height="200">
+                                              <param name="movie" value="../Images/Orthers/gach_lat_swf_01.swf" />
+                                              <param name="quality" value="high" />
+                                              <param name="allowScriptAccess" value="always" />
+                                              <param name="wmode" value="transparent">
+                                                 <embed src="../Images/Orthers/gach_lat_swf_01.swf"
+                                                  quality="high"
+                                                  type="application/x-shockwave-flash"
+                                                  WMODE="transparent"
+                                                  width="200"
+                                                  height="200"
+                                                  pluginspage="http://www.macromedia.com/go/getflashplayer"
+                                                  allowScriptAccess="always" />
+                                          </object>
+                                         </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border-top-style: groove; border-bottom-style: groove; border-top-width: thick; border-bottom-width: thick; border-top-color: #000000; border-bottom-color: #000000">
+                                         <div align="center">
+                                          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+                                                codebase="../Images/Orthers/gach_op_swf_01.swf" width="200" height="200">
+                                              <param name="movie" value="../Images/Orthers/gach_op_swf_01.swf" />
+                                              <param name="quality" value="high" />
+                                              <param name="allowScriptAccess" value="always" />
+                                              <param name="wmode" value="transparent">
+                                                 <embed src="../Images/Orthers/gach_op_swf_01.swf"
+                                                  quality="high"
+                                                  type="application/x-shockwave-flash"
+                                                  WMODE="transparent"
+                                                  width="200"
+                                                  height="200"
+                                                  pluginspage="http://www.macromedia.com/go/getflashplayer"
+                                                  allowScriptAccess="always" />
+                                          </object>
+                                         </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="border-top-style: groove; border-bottom-style:none; border-top-width: thick; border-bottom-width: thick; border-top-color: #000000; border-bottom-color: #000000">
+                                          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="200" height="500">
+                                              <param name="movie" value="../Images/Orthers/others_swf_01.swf" />
+                                              <param name="quality" value="high" />
+                                              <param name="allowScriptAccess" value="always" />
+                                              <param name="wmode" value="transparent">
+                                                 <embed src="../Images/Orthers/others_swf_01.swf"
+                                                  quality="high"
+                                                  type="application/x-shockwave-flash"
+                                                  WMODE="transparent"
+                                                  width="200"
+                                                  height="500"
+                                                  pluginspage="http://www.macromedia.com/go/getflashplayer"
+                                                  allowScriptAccess="always" />
+                                            </object>
+                                         </div>
+                                    </td>
+                                </tr>
+                                </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+                <br />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

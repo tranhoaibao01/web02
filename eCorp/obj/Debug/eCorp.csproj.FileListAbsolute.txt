@@ -1,0 +1,84 @@
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll.licenses
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\eCorp.dll
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\eCorp.pdb
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\BAL.eCorp.dll
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\Core.DAL.dll
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.dll
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\Core.Librarys.dll
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\BAL.eCorp.pdb
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\Core.DAL.pdb
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.pdb
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\bin\Core.Librarys.pdb
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\obj\Debug\eCorp.pdb
+E:\A\01-Website Design\Web Application\WebApplication\eCorp\obj\Debug\eCorp.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\eCorp.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\eCorp.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\BAL.eCorp.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\Core.DAL.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\Core.Librarys.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\BAL.eCorp.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\Core.DAL.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\bin\Core.Librarys.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll.licenses
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\eCorp.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\eCorp.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\BAL.eCorp.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\Core.DAL.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\Core.Librarys.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\BAL.eCorp.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\Core.DAL.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\bin\Core.Librarys.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.csprojResolveAssemblyReference.cache
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll.licenses
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\eCorp\obj\Debug\eCorp.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\eCorp.dll
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\eCorp.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\BAL.eCorp.dll
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\Core.DAL.dll
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.dll
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\Core.Librarys.dll
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\BAL.eCorp.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\Core.DAL.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\bin\Core.Librarys.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\obj\Debug\eCorp.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll.licenses
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll
+E:\B002-Khách hàng\Web Application\WebApplication\eCorp\obj\Debug\eCorp.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\eCorp.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\eCorp.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\BAL.eCorp.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\Core.DAL.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\Core.Librarys.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\BAL.eCorp.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\Core.DAL.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\Core.Librarys.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\obj\Debug\eCorp.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\obj\Debug\eCorp.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\eCorp\bin\eCorp.dll.config
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\eCorp.dll.config
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\eCorp.dll
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\eCorp.pdb
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\BAL.eCorp.dll
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\Core.DAL.dll
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.dll
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\Core.Librarys.dll
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\BAL.eCorp.pdb
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\Core.DAL.pdb
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\Core.GlobalObjects.pdb
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\bin\Core.Librarys.pdb
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\obj\Debug\eCorp.csprojResolveAssemblyReference.cache
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\obj\Debug\eCorp.dll
+E:\B002-KHACHHANG\01-VLXDLongChau\Web Application\WebApplication\eCorp\obj\Debug\eCorp.pdb

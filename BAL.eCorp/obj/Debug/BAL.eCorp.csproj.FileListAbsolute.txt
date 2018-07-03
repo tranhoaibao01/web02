@@ -1,0 +1,55 @@
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.dll
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.pdb
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.dll
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.dll
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.dll
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.pdb
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.pdb
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.pdb
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.dll
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.pdb
+E:\A\01-Website Design\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.csprojResolveAssemblyReference.cache
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.dll
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.dll
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.dll
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.dll
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.dll
+E:\B002-Khách hàng\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\BAL.eCorp.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.DAL.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.GlobalObjects.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\bin\Debug\Core.Librarys.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\BAL.eCorp\obj\Debug\BAL.eCorp.pdb

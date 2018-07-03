@@ -1,0 +1,5 @@
+Authentication=SQL Server Authentication
+Data Source=LIEB-VAIO\SQLEXPRESS
+Initial Catalog=ERP
+User ID=sa
+Password=123456

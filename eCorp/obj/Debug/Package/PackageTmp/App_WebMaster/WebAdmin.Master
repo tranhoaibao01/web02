@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebAdmin.master.cs" Inherits="eCorp.App_WebMaster.WebAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 251px;
+        }
+        .style2
+        {
+            width: 634px;
+        }
+        .style3
+        {
+            width: 150px;
+            height: 38px;
+        }
+        .style4
+        {
+            height: 19px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table cellpadding="0" cellspacing="0" class="style1" align="center" 
+        style="width: 900px">
+        <tr>
+            <td class="style2" rowspan="2" valign="top" align="left" style="width: 700px">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td class="style3" style="width: 15px; height: 20px;" width="15">
+                &nbsp;</td>
+            <td class="style3" style="width: 200px; height: 20px;">
+                Menu trang quản trị<br />
+            </td>
+        </tr>
+        <tr>
+            <td class="style3" style="width: 15px" valign="top" width="15">
+                &nbsp;</td>
+            <td class="style3" style="width: 200px" valign="top">
+                <table cellpadding="0" cellspacing="0" class="style1">
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtCategories" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/CategoriesManage.aspx">Thể loại sản phẩm</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtProduct" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/ProductManage.aspx">Sản phẩm</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="style4">
+                            <asp:LinkButton ID="lbtCustomer" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/CustomerManage.aspx">Khách hàng</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtService" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/ServiceManage.aspx">Dịch vụ</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtPartner" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/PartnerManage.aspx">Đối tác</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtContact" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/ContactManage.aspx">Thông tin liên hệ</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtAccount" runat="server">Tài khoản</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtAboutUs" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/AboutUsManage.aspx">Giới thiệu</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtFAQ" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/FAQManage.aspx">FAQs</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtNews" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/NewsManage.aspx">Tin tức</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtLink" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/LinkManage.aspx">Liên kết</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="lbtUser" runat="server" 
+                                PostBackUrl="~/App_WebAdmins/IUserManage.aspx">Quản lý người dùng</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <hr />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <asp:LinkButton ID="LinkButton13" runat="server">Trang chủ</asp:LinkButton>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C7869F5-E870-4499-8619-F8A410598424}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eCorp</RootNamespace>
+    <AssemblyName>eCorp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CKEditor.NET, Version=3.6.4.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\eCorp.css" />
+    <Content Include="App_Themes\Images\Bao_Header1.png" />
+    <Content Include="App_Themes\Images\Bao_Header2.png" />
+    <Content Include="App_Themes\Images\bg.gif" />
+    <Content Include="App_Themes\Images\bg_navcon.gif" />
+    <Content Include="App_Themes\Images\bg_tile.jpg" />
+    <Content Include="App_Themes\Images\botpage.png" />
+    <Content Include="App_Themes\Images\centerpage.png" />
+    <Content Include="App_Themes\Images\footergradient.gif" />
+    <Content Include="App_Themes\Images\header1.gif" />
+    <Content Include="App_Themes\Images\header2.gif" />
+    <Content Include="App_Themes\Images\header_bg.png" />
+    <Content Include="App_Themes\Images\html-bg.gif" />
+    <Content Include="App_Themes\Images\left_rightcolumn.png" />
+    <Content Include="App_Themes\Images\Logo-1.bmp" />
+    <Content Include="App_Themes\Images\navRow.png" />
+    <Content Include="App_Themes\Images\pager_bg.gif" />
+    <Content Include="App_WebAdmins\AboutUsEdit.aspx" />
+    <Content Include="App_WebAdmins\AboutUsManage.aspx" />
+    <Content Include="App_WebAdmins\AccountEdit.aspx" />
+    <Content Include="App_WebAdmins\AccountManage.aspx" />
+    <Content Include="App_WebAdmins\BranchEdit.aspx" />
+    <Content Include="App_WebAdmins\BranchManage.aspx" />
+    <Content Include="App_WebAdmins\CategoriesEdit.aspx" />
+    <Content Include="App_WebAdmins\CategoriesManage.aspx" />
+    <Content Include="App_WebAdmins\ContactEdit.aspx" />
+    <Content Include="App_WebAdmins\ContactManage.aspx" />
+    <Content Include="App_WebAdmins\CustomerEdit.aspx" />
+    <Content Include="App_WebAdmins\CustomerManage.aspx" />
+    <Content Include="App_WebAdmins\FAQEdit.aspx" />
+    <Content Include="App_WebAdmins\FAQManage.aspx" />
+    <Content Include="App_WebAdmins\Index.aspx" />
+    <Content Include="App_WebAdmins\LinkEdit.aspx" />
+    <Content Include="App_WebAdmins\LinkManage.aspx" />
+    <Content Include="App_WebAdmins\NewsEdit.aspx" />
+    <Content Include="App_WebAdmins\NewsManage.aspx" />
+    <Content Include="App_WebAdmins\PartnerEdit.aspx" />
+    <Content Include="App_WebAdmins\PartnerManage.aspx" />
+    <Content Include="App_WebAdmins\ProductEdit.aspx" />
+    <Content Include="App_WebAdmins\ProductManage.aspx" />
+    <Content Include="App_WebAdmins\ServiceEdit.aspx" />
+    <Content Include="App_WebAdmins\ServiceManage.aspx" />
+    <Content Include="App_WebPages\Gioi_thieu.aspx" />
+    <Content Include="App_WebPages\Chi_nhanh.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="App_WebPages\Lien_he.aspx" />
+    <Content Include="App_WebPages\Tin_tuc.aspx" />
+    <Content Include="App_WebPages\Tin_tuc_chi_tiet.aspx" />
+    <Content Include="App_WebPages\San_pham.aspx" />
+    <Content Include="App_WebPages\San_pham_chi_tiet.aspx" />
+    <Content Include="Controls\Uc_Product.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\Customers\LNITBook.jpg" />
+    <Content Include="Images\Customers\x601706.nho.jpg" />
+    <Content Include="Images\Links\www.nguyenlan.com.jpg" />
+    <Content Include="Images\Logos\Block_with_letter_B.jpg" />
+    <Content Include="Images\Logos\Logo-mk.gif" />
+    <Content Include="Images\Logos\logo.gif" />
+    <Content Include="Images\Logos\Soft.gif" />
+    <Content Include="Images\Logos\Training.gif" />
+    <Content Include="Images\Logos\www.nguyenlan.com.jpg" />
+    <Content Include="Images\Logos\www.nguyenlan.net.jpg" />
+    <Content Include="Images\Orthers\arrow_white_01.png" />
+    <Content Include="Images\Orthers\Bullet_02.GIF" />
+    <Content Include="Images\Orthers\check_blue_01.png" />
+    <Content Include="Images\Orthers\Chi_tiet.png" />
+    <Content Include="Images\Orthers\gach_lat_swf_01.swf" />
+    <Content Include="Images\Orthers\gach_op_swf_01.swf" />
+    <Content Include="Images\Orthers\he_thong_san_pham.png" />
+    <Content Include="Images\Orthers\Hinh_anh.png" />
+    <Content Include="Images\Orthers\icon-no-image-01.png" />
+    <Content Include="Images\Orthers\icon-no-image-02.jpg" />
+    <Content Include="Images\Orthers\icon-no-image-03.jpg" />
+    <Content Include="Images\Orthers\icon-no-image-04.jpg" />
+    <Content Include="Images\Orthers\icon-no-image-05.gif" />
+    <Content Include="Images\Orthers\icon-no-image-06.png" />
+    <Content Include="Images\Orthers\icon-no-image-07.jpg" />
+    <Content Include="Images\Orthers\logo.png" />
+    <Content Include="Images\Orthers\navRow.png" />
+    <Content Include="Images\Orthers\navRow_02.png" />
+    <Content Include="Images\Orthers\navRow_03.png" />
+    <Content Include="Images\Orthers\navRow_04.png" />
+    <Content Include="Images\Orthers\navRow_05.png" />
+    <Content Include="Images\Orthers\others_swf_01.swf" />
+    <Content Include="Images\Orthers\Panel_left.bmp" />
+    <Content Include="Images\Orthers\Panel_left_01.bmp" />
+    <Content Include="Images\Orthers\Panel_left_02.bmp" />
+    <Content Include="Images\Orthers\panel_left_swf_01.swf" />
+    <Content Include="Images\Orthers\Panel_right.bmp" />
+    <Content Include="Images\Orthers\panel_right_gif_01.gif" />
+    <Content Include="Images\Orthers\panel_right_swf_01.swf" />
+    <Content Include="Images\Orthers\Panel_top.bmp" />
+    <Content Include="Images\Orthers\product_link.png" />
+    <Content Include="Images\Orthers\Red_Arrow_Left.png" />
+    <Content Include="Images\Orthers\Web_link.png" />
+    <Content Include="Images\Partners\www.nguyenlan.com.jpg" />
+    <Content Include="Images\Services\Download.png" />
+    <Content Include="Images\Services\katomic.png" />
+    <Content Include="Images\Services\KDE  Resources Configuration.png" />
+    <Content Include="Images\Services\kdeprintfax.png" />
+    <Content Include="Images\Services\kdmconfig.png" />
+    <Content Include="Images\Services\www.nguyenlan.com.jpg" />
+    <Content Include="Images\Services\www.nguyenlan.net.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_WebAdmins\AboutUsEdit.aspx.cs">
+      <DependentUpon>AboutUsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\AboutUsEdit.aspx.designer.cs">
+      <DependentUpon>AboutUsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\AboutUsManage.aspx.cs">
+      <DependentUpon>AboutUsManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\AboutUsManage.aspx.designer.cs">
+      <DependentUpon>AboutUsManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\AccountEdit.aspx.cs">
+      <DependentUpon>AccountEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\AccountEdit.aspx.designer.cs">
+      <DependentUpon>AccountEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\AccountManage.aspx.cs">
+      <DependentUpon>AccountManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\AccountManage.aspx.designer.cs">
+      <DependentUpon>AccountManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\BranchEdit.aspx.cs">
+      <DependentUpon>BranchEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\BranchEdit.aspx.designer.cs">
+      <DependentUpon>BranchEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\BranchManage.aspx.cs">
+      <DependentUpon>BranchManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\BranchManage.aspx.designer.cs">
+      <DependentUpon>BranchManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\CategoriesEdit.aspx.cs">
+      <DependentUpon>CategoriesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\CategoriesEdit.aspx.designer.cs">
+      <DependentUpon>CategoriesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\CategoriesManage.aspx.cs">
+      <DependentUpon>CategoriesManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\CategoriesManage.aspx.designer.cs">
+      <DependentUpon>CategoriesManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\ContactEdit.aspx.cs">
+      <DependentUpon>ContactEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\ContactEdit.aspx.designer.cs">
+      <DependentUpon>ContactEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\ContactManage.aspx.cs">
+      <DependentUpon>ContactManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\ContactManage.aspx.designer.cs">
+      <DependentUpon>ContactManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\CustomerEdit.aspx.cs">
+      <DependentUpon>CustomerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\CustomerEdit.aspx.designer.cs">
+      <DependentUpon>CustomerEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\CustomerManage.aspx.cs">
+      <DependentUpon>CustomerManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\CustomerManage.aspx.designer.cs">
+      <DependentUpon>CustomerManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\FAQEdit.aspx.cs">
+      <DependentUpon>FAQEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\FAQEdit.aspx.designer.cs">
+      <DependentUpon>FAQEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\FAQManage.aspx.cs">
+      <DependentUpon>FAQManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\FAQManage.aspx.designer.cs">
+      <DependentUpon>FAQManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\LinkEdit.aspx.cs">
+      <DependentUpon>LinkEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\LinkEdit.aspx.designer.cs">
+      <DependentUpon>LinkEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\LinkManage.aspx.cs">
+      <DependentUpon>LinkManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\LinkManage.aspx.designer.cs">
+      <DependentUpon>LinkManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\NewsEdit.aspx.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\NewsEdit.aspx.designer.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\NewsManage.aspx.cs">
+      <DependentUpon>NewsManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\NewsManage.aspx.designer.cs">
+      <DependentUpon>NewsManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\PartnerEdit.aspx.cs">
+      <DependentUpon>PartnerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\PartnerEdit.aspx.designer.cs">
+      <DependentUpon>PartnerEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\PartnerManage.aspx.cs">
+      <DependentUpon>PartnerManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\PartnerManage.aspx.designer.cs">
+      <DependentUpon>PartnerManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\ProductEdit.aspx.cs">
+      <DependentUpon>ProductEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\ProductEdit.aspx.designer.cs">
+      <DependentUpon>ProductEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\ProductManage.aspx.cs">
+      <DependentUpon>ProductManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\ProductManage.aspx.designer.cs">
+      <DependentUpon>ProductManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\ServiceEdit.aspx.cs">
+      <DependentUpon>ServiceEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\ServiceEdit.aspx.designer.cs">
+      <DependentUpon>ServiceEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebAdmins\ServiceManage.aspx.cs">
+      <DependentUpon>ServiceManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebAdmins\ServiceManage.aspx.designer.cs">
+      <DependentUpon>ServiceManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebMaster\WebAdmin.Master.cs">
+      <DependentUpon>WebAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebMaster\WebAdmin.Master.designer.cs">
+      <DependentUpon>WebAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebMaster\WebPage.Master.cs">
+      <DependentUpon>WebPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebMaster\WebPage.Master.designer.cs">
+      <DependentUpon>WebPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\Gioi_thieu.aspx.cs">
+      <DependentUpon>Gioi_thieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\Gioi_thieu.aspx.designer.cs">
+      <DependentUpon>Gioi_thieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\Chi_nhanh.aspx.cs">
+      <DependentUpon>Chi_nhanh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\Chi_nhanh.aspx.designer.cs">
+      <DependentUpon>Chi_nhanh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\Lien_he.aspx.cs">
+      <DependentUpon>Lien_he.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\Lien_he.aspx.designer.cs">
+      <DependentUpon>Lien_he.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\Tin_tuc.aspx.cs">
+      <DependentUpon>Tin_tuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\Tin_tuc.aspx.designer.cs">
+      <DependentUpon>Tin_tuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\Tin_tuc_chi_tiet.aspx.cs">
+      <DependentUpon>Tin_tuc_chi_tiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\Tin_tuc_chi_tiet.aspx.designer.cs">
+      <DependentUpon>Tin_tuc_chi_tiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\San_pham.aspx.cs">
+      <DependentUpon>San_pham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\San_pham.aspx.designer.cs">
+      <DependentUpon>San_pham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_WebPages\San_pham_chi_tiet.aspx.cs">
+      <DependentUpon>San_pham_chi_tiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_WebPages\San_pham_chi_tiet.aspx.designer.cs">
+      <DependentUpon>San_pham_chi_tiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Uc_Product.ascx.cs">
+      <DependentUpon>Uc_Product.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Uc_Product.ascx.designer.cs">
+      <DependentUpon>Uc_Product.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ckeditor\" />
+    <Folder Include="Images\Branchs\" />
+    <Folder Include="Images\Categories\" />
+    <Folder Include="Images\Icons\" />
+    <Folder Include="Images\News\" />
+    <Folder Include="Images\Products\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_WebMaster\WebAdmin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAL.eCorp\BAL.eCorp.csproj">
+      <Project>{92325A92-734A-412E-89B7-0A01BDA38C48}</Project>
+      <Name>BAL.eCorp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.DAL\Core.DAL.csproj">
+      <Project>{22F5DB1F-58D6-4DAF-8DDE-797364E83D53}</Project>
+      <Name>Core.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.GlobalObjects\Core.GlobalObjects.csproj">
+      <Project>{92305A3C-4376-4DBA-8915-ED14484DF440}</Project>
+      <Name>Core.GlobalObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_WebMaster\WebPage.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5504</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

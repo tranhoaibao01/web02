@@ -1,0 +1,468 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebPage.master.cs" Inherits="eCorp.App_WebMaster.WebPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 900px;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            height: 19px;
+        }
+        .menu
+        {
+	        width:100%; 
+	        height:36px; 
+	        /*line-height:30px;*/
+	        margin:0;
+	        padding:0;
+        }
+        .menu li
+        {
+	        position:relative;
+	        display:block;
+	        width:100%;
+        }
+        .menu li ul
+        {
+	        position:absolute; 
+	        display:none;
+        }
+        .menu li:hover > ul
+        {
+	        display:block;
+        }
+        .menu a
+        {
+	        display:block; 
+	        color:#fff;
+	        background-color:Black;
+	        height:26px;
+        }
+        .menu ul ul,
+        .menu li:hover > a,
+        .menu a:hover
+        {
+	        opacity:.8;
+        }
+        /*Level 1*/
+        .menu > ul > li
+        {
+	        float:left;
+	        width:16%;
+        }
+        .menu > ul > li > a
+        {
+	        width:100%;
+	        padding-left:0%; 
+	        padding-right:0%; 
+	        /*text-transform:uppercase; */
+	        font-weight:normal;
+        }
+        /*Level 2*/
+        .menu > ul > li > ul
+        {
+	        position:absolute; 
+	        top:100%; 
+	        left:0; 
+	        width:100%; 
+        }
+        .menu > ul > li > ul > li
+        {
+	        width:100%;
+        }
+        .menu > ul > li > ul > li > a
+        {
+	        width:94%;
+	        padding-left:3%;
+	        padding-right:3%;
+        }
+        /* Level +++ */
+        .menu ul ul ul
+        {
+	        width:100%;
+	        left:100%;
+	        top:0;
+	        background-color:Black;
+        }
+        .menu ul ul ul li
+        {
+	        width:100%;
+        }
+        .menu ul ul ul li a
+        {
+	        width:100%;
+	        padding-left:0%;
+	        padding-right:0%;
+        }
+        
+        /* Menu trái*/
+        .menu1
+        {
+	        width:100%; 
+	        height:19px; 
+	        /*line-height:30px;*/
+	        margin:0;
+	        padding:0;
+        }
+        .menu1 li
+        {
+	        position:relative;
+	        display:block;
+	        width:100%;
+        }
+        .menu1 li ul
+        {
+	        position:absolute; 
+	        display:none;
+        }
+        .menu1 li:hover > ul
+        {
+	        display:block;
+        }
+        .menu1 a
+        {
+	        display:block; 
+	        color:#fff;
+	        background-color:Black;
+	        height:26px;
+        }
+        .menu1 ul ul,
+        .menu1 li:hover > a,
+        .menu1 a:hover
+        {
+        }
+        /*Level 1*/
+        .menu1 > ul > li
+        {
+	        float:left;
+	        width:100%;
+        }
+        .menu1 > ul > li > a
+        {
+	        width:100%;
+	        padding-left:0%; 
+	        padding-right:0%; 
+	        /*text-transform:uppercase; */
+	        font-weight:normal;
+        }
+        /*Level 2*/
+        .menu1 > ul > li > ul
+        {
+	        position:absolute; 
+	        top:0%; 
+	        left:80%; 
+	        width:100%; 
+        }
+        .menu1 > ul > li > ul > li
+        {
+	        width:100%;
+        }
+        .menu1 > ul > li > ul > li > a
+        {
+	        width:100%;
+	        padding-left:3%;
+	        padding-right:3%;
+        }
+        /* Level +++ */
+        .menu1 ul ul ul
+        {
+	        width:100%;
+	        left:100%;
+	        top:0;
+	        background-color:Black;
+        }
+        .menu1 ul ul ul li
+        {
+	        width:100%;
+        }
+        .menu1 ul ul ul li a
+        {
+	        width:100%;
+	        padding-left:0%;
+	        padding-right:0%;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="background-color: #C0C0C0">
+    <table align="center" cellpadding="0" cellspacing="0" class="style1">
+        <tr>
+            <td colspan="3">
+                <asp:Image ID="Image3" runat="server" 
+                    ImageUrl="~/Images/Orthers/index_01.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table cellpadding="0" cellspacing="0" class="style2">
+                    <tr>
+                        <td style="width: 400px">
+                            <asp:Image ID="Image1" runat="server" 
+                                ImageUrl="~/Images/Orthers/Panel_left.bmp" />
+                        </td>
+                        <td>
+                            <asp:Image ID="Image2" runat="server" 
+                                ImageUrl="~/Images/Orthers/Panel_right.bmp" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <div class="menu" align="left">
+  	            <ul>
+    	            <li>
+        	            <a href="/App_WebPages/Default.aspx">Trang chủ</a>
+                    </li>
+                    <li>
+        	            <a href="/App_WebPages/AboutUs.aspx">Giới thiệu</a>
+                    </li>
+                    <li>
+        	            <a href="#">Sản phẩm</a>
+                        <ul>
+            	            <li>
+                                <a href="#">Gạch</a>
+                                <ul>
+                    	            <li>
+                                        <a href="#">Gạch lát</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.LAT.BK">Gạch bông kính</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.LAT.CERAMIC">Gạch ceramic</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gạch ốp</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.OP.TUONG">Gạch ốp tường</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.OP.VIEN">Gạch ốp viên</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/App_WebPages/Products.aspx?ID=8">Gạch trang trí</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.TTRI.DA">Gạch đá</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.TTRI.GOM">Gạch gốm</a></li>
+                                       </ul>
+                                    </li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.SVVH">Sân vườn-vĩa hè</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.KINH">Gạch kính</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Thiết bị WC</a>
+                                <ul>
+                    	            <li><a href="/App_WebPages/Products.aspx?ID=WC.BONCAU">Bồn cầu</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=WC.CHAURUA">Chậu rửa</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=WC.BONTIEU">Bồn tiểu</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=WC.BONTAM">Bồn tắm</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=WC.VNST">Vòi nước-Sen tắm</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=WC.BNN">Bình nước nóng</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=WC.PHUKIEN">Phụ kiên WC</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Thiết bị bếp</a>
+                                <ul>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=BEP.TUBEP">Tủ bếp</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=BEP.BEP">Bếp</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=BEP.CHAURUA">Chậu rửa chén</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=BEP.PHUKIEN">Phụ kiện nhà bếp</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Sơn chống thấm</a>
+                                <ul>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=SON.NUOC">Sơn nước</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=SON.DAU">Sơn dầu</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=SON.CHONGTHAM">Chống thấm</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=SON.SIKA">Sika</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Sản phẩm khác</a>
+                                <ul>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=KHAC.CCMH">Chuông cửa màn hình</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=KHAC.KHOA">Khóa</a></li>
+                                    <li><a href="/App_WebPages/Products.aspx?ID=KHAC.DENLED">Đèn led</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+        	            <a href="#">Tin tức</a>
+                        <ul>
+            	            <li><a href="#">Menu 4 - Lv2</a></li>
+                            <li><a href="#">Menu 4 - Lv2</a></li>
+                            <li><a href="#">Menu 4 - Lv2</a></li>
+                            <li><a href="#">Menu 4 - Lv2</a></li>
+                            <li><a href="#">Menu 4 - Lv2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+        	            <a href="#">Chi nhánh</a>
+                    </li>
+                    <li>
+        	            <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+              </div>
+             </td>
+        </tr>
+        <tr>
+            <td style="width: 200px" valign="top">
+                <table cellpadding="0" cellspacing="0" class="style2">
+                    <tr>
+                        <td>
+&nbsp;
+                            <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/Orthers/navRow.png" />
+&nbsp;
+                            <asp:Label ID="Label1" runat="server" Text="HỆ THỐNG SẢN PHẨM"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style3" align="left" valign="top">
+                            <div class="menu1" align="left">
+                                <ul style="padding: 0px; margin: 0px; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%">
+                                    <li>
+                                        <a href="#">Gạch</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Gạch lát</a>
+                                                <ul>
+                                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.LAT.BK">Gạch bông kính</a></li>
+                                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.LAT.CERAMIC">Gạch ceramic</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gạch ốp</a>
+                                                <ul>
+                                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.OP.TUONG">Gạch ốp tường</a></li>
+                                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.OP.VIEN">Gạch ốp viên</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gạch trang trí</a>
+                                                <ul>
+                                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.TTRI.DA">Gạch đá</a></li>
+                                                    <li><a href="/App_WebPages/Products.aspx?ID=GACH.TTRI.GOM">Gạch gốm</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.SVVH">Sân vườn-vĩa hè</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=GACH.KINH">Gạch kính</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Thiết bị WC</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.BONCAU">Bồn cầu</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.CHAURUA">Chậu rửa</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.BONTIEU">Bồn tiểu</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.BONTAM">Bồn tắm</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.VNST">Vòi nước-Sen tắm</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.BNN">Bình nước nóng</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=WC.PHUKIEN">Phụ kiên WC</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Thiết bị bếp</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=BEP.TUBEP">Tủ bếp</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=BEP.BEP">Bếp</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=BEP.CHAURUA">Chậu rửa chén</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=BEP.PHUKIEN">Phụ kiện nhà bếp</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sơn chống thấm</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=SON.NUOC">Sơn nước</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=SON.DAU">Sơn dầu</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=SON.CHONGTHAM">Chống thấm</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=SON.SIKA">Sika</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sản phẩm khác</a>
+                                        <ul>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=KHAC.CCMH">Chuông cửa màn hình</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=KHAC.KHOA">Khóa</a></li>
+                                            <li><a href="/App_WebPages/Products.aspx?ID=KHAC.DENLED">Đèn led</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width: 500px" valign="top">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td style="width: 200px">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table cellpadding="0" cellspacing="0" class="style2" 
+                    style="background-color: #808080; color: #FFFFFF;">
+                    <tr>
+                        <td style="width: 200px">
+                            &nbsp;Developby &nbsp;<asp:HyperLink 
+                                ID="HyperLink7" runat="server" 
+                                NavigateUrl="~/App_WebAdmins/Index.aspx">tambaosoft.com</asp:HyperLink>
+                        </td>
+                        <td align="right" style="height: 100px">
+&nbsp;<asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/App_WebPages/Default.aspx">Trang chủ</asp:HyperLink>
+&nbsp; |&nbsp;
+                            <asp:HyperLink ID="HyperLink8" runat="server" 
+                                NavigateUrl="~/App_WebPages/AboutUs.aspx">Giới thiệu</asp:HyperLink>
+                            |&nbsp;&nbsp;&nbsp;
+                            <asp:HyperLink ID="HyperLink6" runat="server">Sản phẩm</asp:HyperLink>
+&nbsp; |&nbsp;
+                            <asp:HyperLink ID="HyperLink5" runat="server">Tin tức</asp:HyperLink>
+&nbsp; |&nbsp;
+                            <asp:HyperLink ID="HyperLink4" runat="server">Hệ thống chi nhánh</asp:HyperLink>
+&nbsp;&nbsp; |&nbsp;
+                            <asp:HyperLink ID="HyperLink3" runat="server">Liên hệ</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+                            <br />
+&nbsp; Bản quyền thuộc vể công ty TNHH Dịch Vụ &amp; Thương Mại Tin Học Tam Bảo&nbsp;&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

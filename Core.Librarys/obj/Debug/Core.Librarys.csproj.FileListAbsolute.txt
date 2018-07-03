@@ -1,0 +1,35 @@
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.dll
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.pdb
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.Properties.Resources.resources
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.dll
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.pdb
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csprojResolveAssemblyReference.cache
+E:\A\01-Website Design\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csproj.GenerateResource.Cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.pdb
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csprojResolveAssemblyReference.cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.Properties.Resources.resources
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csproj.GenerateResource.Cache
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.dll
+E:\B001-TB\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.pdb
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csprojResolveAssemblyReference.cache
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.Properties.Resources.resources
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csproj.GenerateResource.Cache
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.dll
+E:\B001-Tam Bảo\B000-Website\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.dll
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.pdb
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.Properties.Resources.resources
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csproj.GenerateResource.Cache
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.dll
+E:\B002-Khách hàng\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\bin\Debug\Core.Librarys.pdb
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csprojResolveAssemblyReference.cache
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.Properties.Resources.resources
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.csproj.GenerateResource.Cache
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.dll
+E:\B002-Khách hàng\1. VLXD Long Chau\Web Application\WebApplication\Core.Librarys\obj\Debug\Core.Librarys.pdb
